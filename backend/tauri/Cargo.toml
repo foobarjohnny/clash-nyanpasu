@@ -67,7 +67,7 @@ simd-json = "0.13.4"
 runas = "=1.0.0" # blocked by https://github.com/mitsuhiko/rust-runas/issues/13
 deelevate = "0.2.0"
 winreg = { version = "0.50", features = ["transactions"] }
-windows-sys = { version = "0.48", features = [
+windows-sys = { version = "0.52", features = [
   "Win32_System_LibraryLoader",
   "Win32_System_SystemInformation",
 ] }
